@@ -1,5 +1,5 @@
 # To get values from Environment
-ENV = True  # or True
+ENV = False  # or True
 
 # Ask for values during each run
 INTERACTIVE_MODE = False  # or True
@@ -7,10 +7,10 @@ INTERACTIVE_MODE = False  # or True
 # Required if ENV == False
 Vars = [
   # WARP_ID
-  "",
+  "908aac81-5f06-4fb0-a184-d0b8a73a70f8",
   # SEND_LOG, Want to receive log on Telegram?
   # 1 = Yes or 0 = No
-  "",
+  "0",
   # CHAT_ID, required if SEND_LOG is 1
   # Can be Channel/Group username or ID
   "",
